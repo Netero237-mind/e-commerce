@@ -1,0 +1,295 @@
+/* Styles de base */
+
+Body {
+
+    Font-family : Arial, sans-serif ;
+
+    Margin : 0 ;
+
+    Padding : 0 ;
+
+    Background-color : #f4f4f4 ;
+
+    Color : #333 ;
+
+}
+
+
+
+.container {
+
+    Max-width : 1100px ;
+
+    Margin : 0 auto ;
+
+    Padding : 0 20px ;
+
+}
+
+
+
+/* En-tête (Header) */
+
+.header {
+
+    Background-color : #fff ;
+
+    Box-shadow : 0 2px 5px rgba(0,0,0,0.1) ;
+
+    Padding : 1rem 0 ;
+
+}
+
+
+
+
+
+.header .container {
+
+    Display : flex ;
+
+    Justify-content : space-between ;
+
+    Align-items : center ;
+
+}
+
+
+
+.logo a {
+
+    Text-decoration : none ;
+
+    Font-size : 1.5rem ;
+
+    Font-weight : bold ;
+    
+  Background-color : #626262 ;
+
+    Color : #fff ;
+
+    Padding : 8px 15px ;
+
+    Border-radius : 5px ;
+
+
+}
+
+
+
+.navbar ul {
+
+    List-style : none ;
+
+    Margin : 0 ;
+
+    Padding : 0 ;
+
+    Display : flex ;
+
+    Gap : 20px ;
+
+}
+
+
+
+
+
+.navbar a {
+
+    Text-decoration : none ;
+
+    Color : #555 ;
+
+    Font-weight : bold ;
+
+    Transition : color 0.3s ;
+
+}
+
+
+
+.navbar a :hover {
+
+    Color : #007bff ;
+
+}
+
+
+
+.cart-btn {
+
+    Background-color : #007bff ;
+
+    Color : #fff ;
+
+    Padding : 8px 15px ;
+
+    Border-radius : 5px ;
+
+}
+
+
+
+.cart-btn :hover {
+
+    Background-color : #0056b3 ;
+
+
+
+}
+
+
+
+/* Contenu principal (Main Content) */
+
+.main-content {
+
+    Padding : 2rem 0 ;
+
+}
+
+
+
+.main-content h2 {
+
+    Text-align : center ;
+
+    Margin-bottom : 2rem ;
+
+}
+
+
+
+.product-grid {
+
+    Display : grid ;
+
+    Grid-template-columns : repeat(auto-fit, minmax(280px, 1fr)) ;
+
+    Gap : 30px ;
+
+}
+
+
+
+.product-card {
+
+    Background-color : #fff ;
+
+
+
+    Border : 1px solid #ddd ;
+
+    Border-radius : 8px ;
+
+    Overflow : hidden ;
+
+    Text-align : center ;
+
+    Box-shadow : 0 4px 8px rgba(0,0,0,0.1) ;
+
+    Transition : transform 0.3s ;
+
+}
+
+
+
+.product-card :hover {
+
+    Transform : translateY(-5px) ;
+
+}
+
+
+
+.product-card img {
+
+    Width : 100% ;
+
+    Height : 300px ;
+
+    Object-fit : cover ;
+
+}
+
+
+
+.product-card h3 {
+
+    Margin : 1rem 0 0.5rem ;
+
+}
+
+
+
+
+
+.product-card .price {
+
+    Font-size : 1.2rem ;
+
+    Color : #28a745 ;
+
+    Font-weight : bold ;
+
+}
+
+
+
+.add-to-cart-btn {
+
+    Background-color : #28a745 ;
+
+    Color : #fff ;
+
+    Border : none ;
+
+    Padding : 10px 20px ;
+
+    Border-radius : 5px ;
+
+    Cursor : pointer ;
+
+    Margin : 1rem 0 ;
+
+    Transition : background-color 0.3s ;
+
+}
+
+
+
+.add-to-cart-btn :hover {
+
+    Background-color : #218838 ;
+
+}
+
+
+
+
+
+/* Pied de page (Footer) */
+
+.footer {
+
+    Background-color : #333 ;
+
+    Color : #fff ;
+
+    Text-align : center ;
+
+    Padding : 1.5rem 0 ;
+
+}
+
+
+
+.footer p {
+
+    Margin : 0 ;
+
+}
+
+
+
